@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form1">
+    <form action="" method="get" >
+        <table width="630"border="0">
+        <tr>
+            <td>Ad :</td>
+            <td><input type="text" name="ad" id="ad" required placeholder="Adınızı yazınız..."></td>
+        </tr>
+        <tr>
+            <td>Soyad :</td>
+            <td><input type="text"name="soyad"id="soyad" required placeholder="Soyadınızı giriniz..."></td>
+        </tr>
+        <tr>
+            <td>Cinsiyet:</td>
+            <td><input name="" type="radio" value="" />Erkek<input name="" type="radio" value="" />Kadın</td>
+        </tr>
+        
+        <tr>
+        <td>Yaş</td>
+        <td><input type="number" name="yas" id="yas" min="18" max="88" placeholder="Yaşınızı giriniz..."></td>
+        </tr>
+         
+        <tr>
+        <td>Mail:</td>
+        <td><input type="email" name="mail" id="mail" placeholder="Mailinizi giriniz..." required></td>
+        </tr>
+         
+        <td>Şifre:</td>
+        <td><input type="password" name="password" id="password" required></td>
+        </tr>
+        <tr>
+            <td><input name="" type="text" id="uretilenkod" /></td>
+            <td><input name="" id="girilenkod" placeholder="Güvenlik kodunu giriniz" required type="text" /></td>
+        </tr>
+        <td colspan="2">
+        <input name="" id="dugme" type="button" value="Kayıt Ol!" onclick="bas();"></td>
+        </tr>
+            </table>
+    </form>
+    </div>
+    <script src="register.js"></script>
+    
+</body>
+</html>

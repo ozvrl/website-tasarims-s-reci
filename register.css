@@ -1,0 +1,49 @@
+body
+{
+    font:12px tahoma;
+    background-color: rgb(71, 63, 63);
+    width:100%;
+    height: 100vh;
+}
+.form1
+{
+    width: 610px;
+    height: 450px; 
+    margin: 60px auto;
+    background-color: rgb(196, 187, 170);
+    padding: 100px 0 0 40px;
+}
+td{height: 30px;}
+#dugme
+{
+    width:120px; height: 30px;
+    border: 2px solid #9d3c56;
+    background: #933;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+}
+#dugme:hover
+{
+    border-color: #9b4562;background: #72273c;
+    
+}
+#ad,#soyad,#yas,#mail
+{
+    width: 175px;
+    height: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    color:#917d7d;
+    background: #fff;
+    border-radius: 3px;
+    padding: 0 0 0 2px;
+}
+#uretilenkod
+{
+    width: 135px; height: 56px; 
+    background-color: #b97230;
+    font: bold 30px tahoma;
+    color: #fff;
+    border: none;
+    text-shadow: 0 1px 1px black ;
+}

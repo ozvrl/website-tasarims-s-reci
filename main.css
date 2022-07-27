@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(images/15457.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+header
+{
+    height: 8vh;
+    background:linear-gradient(#2b1055,#191c22);
+     top:0;
+     left:0;
+     width: 100%;
+     padding: 30px 100px ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+header .logo
+{
+ color: #fff;
+ font-weight: 700px;
+ text-decoration: none;
+ font-size: 2em;
+ text-transform: uppercase;
+ text-shadow: 2px 2px black;
+ display: flex;
+ letter-spacing: 2px;
+ cursor: default;
+}
+header ul
+{  
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+header ul li
+{
+    display: flex;
+    margin-left:20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    font-size: 1.5em;
+}
+.cardevent
+{
+    background-image: url(images/world-collapse-doomsday-scene-digital-painting.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 10;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 490px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}   
+.cardevent h1
+{
+    font-size: 40px;
+    color:rgb(212, 51, 11);
+    opacity: 1;
+    text-shadow: 2px;
+    font-weight: bold;
+}
+.cardevent text
+{
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(184, 52, 28);
+    opacity: 1;
+}
+.cardevent-image
+{
+    display: flex;
+    margin: 10px;
+    background-image: url(images/adada.jpg);
+    background-position: middle top;
+    width: 788px;
+    height: 443px;
+    border-radius: 15px;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card
+{
+    background-color: gainsboro;
+    width: 270px;
+    height: 620px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+}   
+.card-image{
+    background-color: gainsboro;
+    height: 300px;
+    background-size:cover;
+    border-radius: 15px 15px 0  0;
+}
+.game1{
+    background-image: url("images/1.jpg");
+}
+.game2{
+    background-image: url("images/2.png");
+}
+.game3{
+    background-image: url("images/3.jpg");
+}
+.game4{
+    background-image: url("images/4.jpg");
+}
+.game5{
+    background-image: url("images/5.jpg");
+}
+.game6{
+    background-image: url("images/6.jpg");
+}
+.game7{
+    background-image: url("images/7.jpg");
+}
+.game8{
+    background-image: url("images/8.jpg");
+}
+.card h2
+{
+    padding:10px;
+}
+.card p
+{
+    padding:10px;
+    
+}
+.card a
+{   
+    background-color:black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
